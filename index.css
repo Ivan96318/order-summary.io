@@ -71,13 +71,21 @@ body {
 .proceed-button {
   background-color: hsl(245, 75%, 52%);
   color: white;
-  width: 100%;
-  padding: .7rem;
+  padding: .6rem 5.1rem;
   border-radius: .5rem;
   border-style: none;
   font-weight: bold;
   font-size: .9rem;
   box-shadow: 0 5px 18px rgba(56, 41, 224, 0.5);
+}
+
+.proceed-button:link {
+  text-decoration: none;
+}
+
+.proceed-button:hover {
+  background-color: hsl(245, 66%, 58%);
+  cursor: pointer;
 }
 
 .proceed-action {
@@ -101,6 +109,10 @@ body {
   text-decoration: none;
 }
 
+#cancel-button:hover {
+  color: hsl(224, 53%, 33%);
+}
+
 #title {
   font-size: 1.5rem;
 }
@@ -118,4 +130,9 @@ body {
 #change-button {
   font-weight: bold;
   font-size: .9rem;
+}
+
+#change-button:hover {
+  color: hsl(245, 66%, 58%);
+  text-decoration: none;
 }
